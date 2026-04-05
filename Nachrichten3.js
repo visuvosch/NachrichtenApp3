@@ -123,7 +123,7 @@ function renderNews(articles) {
                 <h3>${article.title}</h3>
                 <p>${article.description ? article.description.substring(0, 100) : 'Keine Beschreibung'}...</p>
                 <a href="${article.url}" target="_blank" class="news-link">Mehr lesen →</a>
-                <hr></hr>
+                <hr>
             </div>
         </div>`;
         cards.push(card);
