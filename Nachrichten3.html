@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Nachrichten3.css">
+    
+    
+    <title>Top Nachrichten</title>
+</head>
+<body>
+<div id="UntergrundFarbe">
+  
+  
+  <div class="filter-bar">
+    <button onclick="changeCategory('general')">Allgemein</button>
+    <button onclick="changeCategory('technology')">Technik</button>
+    <button onclick="changeCategory('sports')">Sport</button>
+    <button onclick="changeCategory('science')">Wissenschaft</button>
+    <button onclick="ändereSprache('de')" id="deutschButton">Deutsch</button>
+    <button onclick="ändereSprache('en')" id="englischButton">Englisch</button>
+  </div>
+
+  <div class="search-container">
+    <input type="text" id="search-input" color="white" placeholder="Nach Themen suchen...">
+    <button onclick="handleSearch()">Suchen</button>
+  </div>
+
+
+     <div id="news-container" class="news-grid"></div>
+        <h1 style="font-family: sans-serif;">Top Schlagzeilen</h1>
+              <div id="news-container" style="font-family: sans-serif; max-width: 600px;">
+                       
+     </div>
+
+  <button onclick="getNews()" id="aktualisieren">Aktualisieren</button> 
+  <button onclick="zurueckNachOben()" id="zurueck_nach_oben">Zurück nach oben</button>
+  
+</div>  
+  
+  
+  <script src="Nachrichten3.js"></script>
+</body>
+</html>
+
+
+
+
+
